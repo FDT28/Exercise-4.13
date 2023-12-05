@@ -15,5 +15,13 @@ public class App{
             }
 
         }
+        char lowercaseLetter = Character.toLowerCase(letter.charAt(0));
+        if (lowercaseLetter == 'a'||lowercaseLetter == 'e'||lowercaseLetter == 'i'||lowercaseLetter == 'o'||lowercaseLetter == 'u'){
+            System.out.println(lowercaseLetter + " is a vowel");
+        }
+        else {
+            System.out.println(lowercaseLetter + " is a constant");
+        }
+        scanner.close();
     }
 }
