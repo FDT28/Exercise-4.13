@@ -13,8 +13,6 @@ public class App{
                 System.out.println("You can only type alphabets. Please enter a single alphabet letter: ");
                 letter = scanner.nextLine();
             }
-
-        }
         char lowercaseLetter = Character.toLowerCase(letter.charAt(0));
         if (lowercaseLetter == 'a'||lowercaseLetter == 'e'||lowercaseLetter == 'i'||lowercaseLetter == 'o'||lowercaseLetter == 'u'){
             System.out.println(lowercaseLetter + " is a vowel");
