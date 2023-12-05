@@ -9,7 +9,7 @@ public class App{
         (letter.charAt(0)>='a'&&letter.charAt(0)<='z')) {
             if (letter.length()!=1)
             System.out.println("You can only type one letter. Please enter a single letter: ");
-            if ((letter.charAt(0)>='A'&&letter.charAt(0)<='Z')||(letter.charAt(0)>='a'&&letter.charAt(0)<='z'))
+            if ((letter.charAt(0)<='A'&&letter.charAt(0)>='Z')||(letter.charAt(0)<='a'&&letter.charAt(0)>='z'))
             System.out.println("You can only type alphabets. Please enter a single alphabet letter: ");
             letter = scanner.nextLine();
         }
