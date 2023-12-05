@@ -1,1 +1,0 @@
-"You can only type one letter. Please enter a single letter: "
